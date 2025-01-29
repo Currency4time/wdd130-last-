@@ -1,0 +1,23 @@
+body{
+    background-color: #5ca1d7;
+    margin: 100px;
+    text-align: center;
+}
+
+#picture{
+    width: 30%;
+}
+
+#title{
+    color: white;
+    
+}
+#title:hover{
+    color:black;
+}
+
+.light{
+    color:white;
+
+}
+
