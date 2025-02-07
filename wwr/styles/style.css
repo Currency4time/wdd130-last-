@@ -14,7 +14,17 @@ nav a{
     text-align: center;
     color: red;
     text-decoration: none;
-    font-family: Lato;
+    font-family: 'Lato';
+    padding: 35px;
+}
+
+.logo{
+    width: 80px;
+}
+
+
+#logo_link{
+    padding-top: 5px;
 }
 
 #hero-msg h1{
@@ -33,16 +43,30 @@ main section{
     text-align: center;
 }
 
+main section img{
+    box-sizing: border-box;
+}
+
 #background{
     height: 725px;
 }
 
 body{
     background-color: #343F3e;
+    font-size: 22px;
+    margin: 0;
 }
 
 header{
     background-color: #94b0da;
+}
+
+.home-title{
+    font-family: 'Lato';
+    color:black;
+    font-size: 2em;
+    margin-top: 10px;
+    
 }
 
 nav a:hover{
@@ -54,12 +78,20 @@ nav a:hover{
     background-color: #DCEDFF;
     color: purple;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join{
     background-color: #DCEDFF;
     color: purple;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book :hover{
@@ -72,36 +104,66 @@ nav a:hover{
     color: red;
 }
 
+.card-img{
+    border: 10px solid bisque;
+}
+
+.rivers-card{
+    margin: 200px 0px;
+}
+
+.camping-card{
+    margin: 200px 0px;
+}
+
+.rapids-card{
+    margin: 200px 0px;
+}
+
 .msg{
     background-color: #343F3E;
+    font-family: 'lexend giga', sans-serif;
+    font-size: .8em;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.msg p{
+    padding-bottom: 15px;
 }
 
 footer{
     background-color: antiquewhite;
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a{
     text-decoration: none;
-    font-family: Lato, Impact;
 }
 
 footer a:hover{
     color: purple;
 }
 
-.home-title{
-    color:black;
+footer .social img{
+    padding-top: 15px;
 }
 
 h4{
     color:black;
 }
 
-.icon{
-    width: 80px;
+h2{
+    margin: 0;
 }
 
-.logo{
+.icon{
     width: 80px;
+    padding-top: 10px;
+}
+
+p{
+    font-size: 0.8em;
 }
