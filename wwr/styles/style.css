@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend+Giga:wght@100..900&family=Oswald:wght@200..700&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -12,6 +14,7 @@ nav a{
     text-align: center;
     color: red;
     text-decoration: none;
+    font-family: Lato;
 }
 
 #hero-msg h1{
@@ -80,6 +83,7 @@ footer{
 
 footer a{
     text-decoration: none;
+    font-family: Lato, Impact;
 }
 
 footer a:hover{
