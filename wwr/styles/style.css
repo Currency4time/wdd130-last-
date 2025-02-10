@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend+Giga:wght@100..900&family=Oswald:wght@200..700&display=swap');
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
     background: #999;
 }
 
-#hero{
+.hero-img{
     width: 100%;
 }
 
@@ -16,6 +22,11 @@ nav a{
     text-decoration: none;
     font-family: 'Lato';
     padding: 35px;
+}
+
+nav a:hover{
+    background-color: #DCEDFF;
+    color: red;
 }
 
 .logo{
@@ -69,22 +80,7 @@ header{
     
 }
 
-nav a:hover{
-    background-color: #DCEDFF;
-    color: red;
-}
-
 .book {
-    background-color: #DCEDFF;
-    color: purple;
-    text-decoration: none;
-    font-size: 18px;
-    padding: 15px 30px;
-    margin-top: 50px;
-    border-radius: 5px;
-}
-
-.join{
     background-color: #DCEDFF;
     color: purple;
     text-decoration: none;
@@ -97,6 +93,16 @@ nav a:hover{
 .book :hover{
     background-color: bisque;
     color: red;
+}
+
+.join{
+    background-color: #DCEDFF;
+    color: purple;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join :hover{
@@ -137,6 +143,7 @@ footer{
     color: black;
     padding: 25px 50px;
     margin-top: 200px;
+    text-align: center;
 }
 
 footer a{

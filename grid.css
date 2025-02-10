@@ -1,0 +1,34 @@
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.Green{
+    width: 100%;
+    height: 100px;
+    background-color:green;
+}
+
+.Red {
+    width: 100%;
+    height: 100px;
+    background-color:red;
+}
+
+.Blue {
+    width: 100%;
+    height: 100px;
+    background-color:blue;
+}
+
+.Yellow {
+    width: 100%;
+    height: 100px;
+    background-color:yellow;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.One{
+
+}
