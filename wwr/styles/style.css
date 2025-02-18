@@ -42,8 +42,9 @@ nav a:hover{
     text-align: center;
 }
 
-#hero-msg h4{
+h4{
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .button-box{
@@ -77,6 +78,7 @@ header{
     color:black;
     font-size: 2em;
     margin-top: 10px;
+    text-align: center;
     
 }
 
