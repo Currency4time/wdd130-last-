@@ -9,16 +9,11 @@
 #content{
     max-width: 1600px;
     margin: 0 auto;
-    background: #999;
-    position: relative;
-    z-index: -2;
 }
 
 #background{
     grid-column: 1/11;
     grid-row: 4/9;
-    position: absolute;
-    z-index: -2;
 }
 
 #hero{
@@ -32,7 +27,6 @@
     grid-row: 1/3;
     margin-top: 100px;
     z-index: -1;
-    position: relative;
 }
 
 .hero-img{
@@ -73,7 +67,6 @@ nav a:hover{
     grid-column: 2/3;
     grid-row: 1/2;
     margin: 100px;
-    z-index: 0;
 }
 
 h1{
@@ -105,7 +98,7 @@ main section img{
 }
 
 body{
-    background-color: #343F3e;
+    background-color:  #999;
     font-size: 22px;
     margin: 0;
 }
@@ -133,7 +126,7 @@ header{
     border-radius: 5px;
 }
 
-.book :hover{
+.book:hover{
     background-color: bisque;
     color: red;
 }
@@ -148,7 +141,7 @@ header{
     border-radius: 5px;
 }
 
-.join :hover{
+.join:hover{
     background-color: bisque;
     color: red;
 }
