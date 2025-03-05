@@ -28,7 +28,9 @@ footer{
 }
 
 #text{
-    color:gray
+    color:gray;
+    padding: 10px;
+    font-size: 1.2em;
 }
 
 #top{
