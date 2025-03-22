@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&family=Italianno&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend+Giga:wght@100..900&family=Oswald:wght@200..700&display=swap');
+
+body{
+    background-color: #fdfef2;
+}
+
+.content{
+    max-width: 1600px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+#heading{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font: "Italianno";
+}
+
+#blurb1{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.button-box{
+    text-align: center;
+    padding-top: 20px;
+}
+
+#button1{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    width: 100px;
+    align-self: center;
+    justify-self: center;
+    background-color: #833223;
+    padding: 20px;
+    color: #9b84a9;
+    font: "oswald";
+}
+
+#button1:hover{
+    background-color: #9b84a9;
+    color: rgb(255, 255, 176)
+}
+
+#button2{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    width: 100px;
+    align-self: center;
+    justify-self: center;
+    background-color: #833223;
+    padding: 20px;
+    color: #cab0da;
+}
+
+.picture-guys{
+    width: 500px;
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+.picture-hand{
+    width:100%;
+    grid-column: 3/4;
+    grid-row: 2/4;
+}
+
+#blurb2{
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+
+header{
+    background-color: #833223;
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+
+}
+
+header img{
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-align: center;
+    align-self:center;
+    background-color: #9b84a9;
+    color: #fdfef2;
+    text-decoration: none;
+    font-family: 'Lato';
+    padding: 35px;
+}
+
+nav a:hover{
+    background-color: #cab0da;
+    color: #833223;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr;
+    background-color: antiquewhite;
+    color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer img{
+    width: 100%;
+}
+
+#links a{
+    text-align: center;
+    align-self:center;
+    background-color: beige;
+    color: red;
+    text-decoration: none;
+    font-family: 'Lato';
+    padding: 35px;
+}
+
+/* .social{
+    display: inline;
+} */
+
+.social img{
+    width: 80px;
+    margin: 20px;
+}
+
+.social a{
+    text-decoration: none;
+}
