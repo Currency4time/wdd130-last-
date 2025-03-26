@@ -158,7 +158,7 @@ footer img{
 .month{
     padding: 70px 25px;
     width: 100%;
-    background: #1Abc9c;
+    background: #833223;
     text-align: center;
 }
 
@@ -215,6 +215,6 @@ footer img{
 
 .days li .active{
     padding: 5px;
-    background: #1abc9c;
+    background: #833223;
     color: white !important;
 }
