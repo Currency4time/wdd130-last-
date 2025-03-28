@@ -25,9 +25,10 @@ body{
 #blurb1{
     grid-column: 1/2;
     grid-row: 2/2;
-    font-family: Oswald;
+    font-family: "Oswald";
     /* margin: 50px; */
     /* margin-top:-25px; */
+    padding: 25px;
 }
 
 .button-box{
@@ -45,7 +46,7 @@ body{
     padding: 20px;
     color: #9b84a9;
     font-family: "oswald";
-    margin-left: 10%;
+    margin-left: 15%;
 }
 
 #button1:hover{
@@ -62,7 +63,8 @@ body{
     background-color: #833223;
     padding: 20px;
     color: #cab0da;
-    margin-right: 10%;
+    font-family: "oswald";
+    margin-right: 15%;
 }
 
 .picture-guys{
@@ -215,6 +217,14 @@ footer img{
 
 .days li .active{
     padding: 5px;
-    background: #833223;
+    background: #9b84a9;
     color: white !important;
+}
+
+#title{
+    font-family: "Italianno", Lato;
+}
+
+#discussion{
+
 }
