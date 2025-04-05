@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&family=Italianno&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend+Giga:wght@100..900&family=Oswald:wght@200..700&display=swap');
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: #fdfef2;
 }
@@ -174,6 +180,7 @@ footer img{
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 3px;
+    list-style: none;
 }
 
 .month .prev{
@@ -187,9 +194,10 @@ footer img{
 }
 
 .weekdays{
-    margin:0;
-    padding-top: 10px 0;
+    
+    padding: 10px;
     background-color: #ddd;
+    font-size: 30px;
 }
 
 .weekdays li{
@@ -211,20 +219,51 @@ footer img{
     width: 13.6%;
     text-align:center;
     margin-bottom: 5px; 
-    font-size: 12px;
+    font-size: 30px;
     color: #177;
 }
 
 .days li .active{
-    padding: 5px;
+    padding: 10px;
     background: #9b84a9;
     color: white !important;
 }
 
 #title{
     font-family: "Italianno", Lato;
+    font-size: 2em;
+    text-align: center;
 }
 
 #discussion{
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+}
 
+#discussion li{
+    list-style: none;
+    margin-bottom: 20px;
+    font-family: "Owswald", Lato;
+}
+
+.something{
+    display: block;
+    margin: 100px auto;
+}
+
+#banner{
+    width: 100%;
+}
+
+.stuff{
+    display: grid;
+    grid-template-columns: 300px 1fr 300px;
+    gap: 50px;
+    margin: 50px;
+}
+
+#item{
+    width: 100%;
+    align-items: center;
 }
