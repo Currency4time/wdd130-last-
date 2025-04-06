@@ -90,7 +90,7 @@ body{
     grid-column: 2/3;
     grid-row: 4/5;
     /* margin-top: 300px; */
-    font-family: oswald;
+    font-family: 'oswald';
 }
 
 header{
@@ -266,4 +266,8 @@ footer img{
 #item{
     width: 100%;
     align-items: center;
+}
+
+#blurb3{
+    font-family: "Oswald";
 }
