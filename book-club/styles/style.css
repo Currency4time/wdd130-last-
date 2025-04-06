@@ -263,7 +263,7 @@ footer img{
     margin: 50px;
 }
 
-#item{
+.item{
     width: 100%;
     align-items: center;
 }
